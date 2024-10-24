@@ -26,3 +26,8 @@ $obj = new Son;
 $obj->getValue(10, 20);
 $obj->display();
 ?>
+
+<!-- Multi-level Inheritance -->
+<!-- In multi-level inheritance, the class inherits the feature of another derived class (Child Class). -->
+
+
