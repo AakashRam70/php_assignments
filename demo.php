@@ -5,7 +5,7 @@ class Mobile{
         echo $this->model;
     }
 }
-$obj = new Mobile;
+$obj = new Mobile();
 $obj->model = "New One";
 $obj->showModel();
 ?>
