@@ -19,7 +19,7 @@ class Father{
 class Son extends Father{
     function display(){
         echo "Your selected values for A is : $this->a <br>";
-        echo "Your selected values B is : $this->b";
+        echo "Your selected values for B is : $this->b";
     }
 }
 $obj = new Son;
@@ -28,6 +28,8 @@ $obj->display();
 ?>
 
 <!-- Multi-level Inheritance -->
-<!-- In multi-level inheritance, the class inherits the feature of another derived class (Child Class). -->
+<!-- In multi-level inheritance, the class inherits the feature of another derived class (Child Class) -->
+
+
 
 
